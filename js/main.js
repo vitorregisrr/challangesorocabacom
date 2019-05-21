@@ -30,9 +30,9 @@
                 items: 1
             },
 
-            600: {
+            800: {
                 items: 2,
-                margin: 20
+                margin: 50
             },
 
             1000: {

@@ -1,0 +1,12 @@
+.btn-main{
+    @extend %btn;
+    background-color: rgba(46, 13, 62, 0.651);
+    text-transform: uppercase;
+    color: #ffffff  !important;
+    text-align: center;
+
+    &:hover{
+       @include scale(1.05);
+       color: #fff;
+    }
+}

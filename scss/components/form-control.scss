@@ -1,0 +1,27 @@
+.form-control {
+    font-family: 'montserrat-regular';
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+    height: 50px;
+    background-color: rgba(46, 13, 62, 0.651);
+    border: 1px solid rgba(46, 13, 62, 9);
+    transition: all 0.4s ease-out;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.form-control:focus {
+    background-color: rgba(46, 13, 62, 0.751);
+}
+
+.form-control::placeholder {
+    color: rgb(214, 214, 214);
+}
+
+
+textarea.form-control {
+    padding-top: 20px;
+    height: 150px;
+}

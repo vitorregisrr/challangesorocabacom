@@ -9,6 +9,7 @@
     "del": "2.2.2",
     "gulp-sourcemaps": "^2.6.5",
     "jquery": "^3.4.1",
+    "jquery-validation": "^1.19.0",
     "lazyload": "^2.0.0-rc.2",
     "mdi": "2.1.19",
     "owl.carousel": "^2.3.4",

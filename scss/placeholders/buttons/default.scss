@@ -1,0 +1,23 @@
+%btn{
+    border-radius: 30px;
+    padding: 12px 50px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    box-shadow: 8.485px 8.485px 21px 0px rgba(0, 0, 0, 0.12);
+    @include transition();
+}
+
+.btn-default{
+    @extend %btn;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: rgba(46, 13, 62, 1);;
+
+    &:hover{
+        background: rgb(33, 8, 46);
+        color: #fff;
+    }
+}

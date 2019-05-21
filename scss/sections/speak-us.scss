@@ -1,9 +1,37 @@
-.speak-us{
+.speak-us {
     height: 70vh;
     width: 100vw;
     background-color: rgba(51, 9, 75, 0.7);
-    
-    &__container{
-        
+
+    @media screen and(max-width: 768px){
+        height: auto;
+        margin-bottom: -100px;
+    }
+
+    &__container {
+        height: 500px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px 120px;
+        background-color: rgba(255, 255, 255, 0.90);
+        width: 100%;
+        min-height: 85vh;
+        border-radius: 51px;
+        transform: translateY(-60px);
+        border: 5px rgb(51, 9, 75);
+
+        @media screen and(max-width: 600px){
+            padding: 50px 30px;
+        }
+    }
+
+
+    &__info{
+        margin-bottom: 30px;
     }
 }

@@ -15,10 +15,16 @@ body{
 @import 
 'fonts',
 'reset',
-'colors',
+'typo',
 'trumps',
+'./mixins/transition.scss',
+'./mixins/breakpoints.scss',
+'./placeholders/buttons/default',
+'./placeholders/buttons/main',
 './components/brand-header.scss',
 './components/skill.scss',
+'./components/form-control.scss',
 './sections/home.scss',
+'./sections/main-footer.scss',
 './sections/speak-us.scss',
 './sections/skills.scss';

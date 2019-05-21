@@ -1,0 +1,15 @@
+@mixin transition($time:0.3s, $element:all, $type:ease-in-out) {
+    -webkit-transition: $element $time $type;
+    -moz-transition: $element $time $type;
+    -ms-transition: $element $time $type;
+    -o-transition: $element $time $type;
+    transition: $element $time $type;
+}
+
+@mixin scale($val) {
+    -webkit-transform: scale($val);
+    -moz-transform: scale($val);
+    -ms-transform: scale($val);
+    -o-transform: scale($val);
+    transform: scale($val);
+}
