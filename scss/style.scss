@@ -4,6 +4,12 @@ body{
     overflow-x: hidden ;
     margin: 0;
     padding: 0;
+    position: relative;
+    background-image: url('../img/hero-home.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 @import 
@@ -12,5 +18,7 @@ body{
 'colors',
 'trumps',
 './components/brand-header.scss',
+'./components/skill.scss',
 './sections/home.scss',
+'./sections/speak-us.scss',
 './sections/skills.scss';

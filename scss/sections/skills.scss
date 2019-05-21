@@ -1,5 +1,23 @@
-.skills{
-    background-color: rgb(231, 231, 231);
+.skills {
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    padding: 120px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+
+    &__slider {
+        .owl-stage-outer {
+            overflow: visible !important;
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            &.center{
+                transform: scale(1.1);
+            }
+        }
+    }
 }

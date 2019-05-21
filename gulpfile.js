@@ -137,7 +137,7 @@ gulp.task('buildBaseVendorScripts', function () {
 /*Building vendor styles needed for basic template rendering*/
 gulp.task('buildBaseVendorStyles', function () {
     return gulp
-        .src(['./node_modules/animate.css/animate.min.css', './node_modules/bootstrap/dist/css/bootstrap-grid.min.css'])
+        .src(['./node_modules/animate.css/animate.min.css', './node_modules/bootstrap/dist/css/bootstrap-grid.min.css', './node_modules/owl.carousel/dist/assets/owl.carousel.min.css'])
         .pipe(concat('vendor.bundle.base.css'))
         .pipe(gulp.dest('./vendors/css'));
 });

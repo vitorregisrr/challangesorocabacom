@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Thresh</title>
+        <link rel="icon" href="img/ico.png"/>
+        <title>Neeko <3</title>
 
         <!-- Load META-TAGS for SEO -->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -59,20 +60,94 @@
             <!-- Home start -->
             <section id="home" class="home">
                 <div class="home__video-background">
-                    <video muted loop autoplay class="lazy">
-                        <source src="./img/background.mp4" type="video/mp4">
-                    </video>
+                    <video
+                        muted
+                        loop
+                        autoplay
+                        src="./img/background.mp4"
+                        poster="./img/hero-home.jpg"></video>
                 </div>
                 <div class="home__content">
                     <p class="home__info">Neeko, the curious chamaleon</p>
                     <div class="home__champion">
-                        <img src="./img/champion.png" alt="Neeko png">
+                        <img
+                            class="lazy wow bounceIn"
+                            src="./img/loading.gif"
+                            data-src="./img/champion.png"
+                            alt="Neeko png">
                     </div>
                     <p class="home__description">"Mudar de corpo é como mudar a mente; fácil. Neeko
                         pode fazer isso! Todo mundo torna isso difícil."</p>
                 </div>
             </section>
             <!-- // Home end -->
+
+            <!-- Skills start -->
+            <section id="skills" class="skills">
+                <div class="container">
+                    <div class="skills__slider" data-wow-delay="0.6s">
+                        <!-- Skills SLIDER start -->
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="skill">
+                                    <div class="skill__img">
+                                        <!-- Foi usado IMG e não um BGI por causa do valor semântico, mas o BGI seria mais fácil :) -->
+                                        <img
+                                            src="./img/loading.gif"
+                                            data-src="./img/skills/1.jpg"
+                                            class="lazy wow bounceIn"
+                                            alt="Skill 1">
+                                    </div>
+                                    <div class="skill__content">
+                                        <p class="skill__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nobis, error aliquid. Vel aut provident corporis blanditiis ducimus quibusdam
+                                            cum asperiores.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="skill">
+                                    <div class="skill__img">
+                                        <img
+                                            src="./img/loading.gif"
+                                            data-src="./img/skills/2.jpg"
+                                            class="lazy wow bounceIn"
+                                            alt="Skill 2">
+                                    </div>
+                                    <div class="skill__content">
+                                        <p class="skill__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Maxime architecto reiciendis dolore eveniet culpa deleniti veniam numquam quia
+                                            eligendi ut.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="skill">
+                                    <div class="skill__img">
+                                        <img
+                                            src="./img/loading.gif"
+                                            data-src="./img/skills/3.jpg"
+                                            class="lazy wow bounceIn"
+                                            alt="Skill 3">
+                                    </div>
+                                    <div class="skill__content">
+                                        <p class="skill__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Maxime architecto reiciendis dolore eveniet culpa deleniti veniam numquam quia
+                                            eligendi ut.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- // Skills SLIDER end -->
+                    </div>
+                </div>
+            </section>
+            <!-- // Skills end -->
         </main>
     </body>
 
