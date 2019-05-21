@@ -1,0 +1,16 @@
+body{
+    font-family: 'opensans-regular';
+    min-height: 100vh;
+    overflow-x: hidden ;
+    margin: 0;
+    padding: 0;
+}
+
+@import 
+'fonts',
+'reset',
+'colors',
+'trumps',
+'./components/brand-header.scss',
+'./sections/home.scss',
+'./sections/skills.scss';

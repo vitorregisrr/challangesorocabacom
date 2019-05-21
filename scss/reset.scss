@@ -1,0 +1,22 @@
+a[role="button"]{
+  display: inline-block;
+  color: unset;
+}
+
+button:focus {
+  outline: none;
+}
+
+a{
+  color: inherit;
+
+  &:hover{
+    color: inherit;
+    text-decoration: none;
+  }
+
+}
+
+strong{
+  font-weight: 700 !important;
+}

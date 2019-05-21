@@ -8,7 +8,10 @@
     "bootstrap": "4.1.1",
     "del": "2.2.2",
     "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.4.1",
+    "lazyload": "^2.0.0-rc.2",
     "mdi": "2.1.19",
+    "owl.carousel": "^2.3.4",
     "wowjs": "^1.1.3"
   },
   "devDependencies": {

@@ -1,0 +1,73 @@
+.home {
+    position: relative;
+    background-image: url('../img/hero-home.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: hidden;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__video-background {
+        position: absolute;
+        z-index: 0;
+        width: 100vw;
+        height: 100vh;
+
+        & > video {
+            min-height: 100%;
+            min-width: 100%;
+        }
+    }
+
+    &__content {
+        z-index: 1;
+        padding: 80px 30px 30px 20px;
+        width: 500px;
+        height: 100%;
+        background-image: linear-gradient(rgba(46, 13, 62, 0.8), rgba(46, 13, 62, 0.6));
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.473);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media screen and(max-width: 600px) {
+            width: 90%;
+        }
+    }
+
+    &__info {
+        font-family: 'opensans-bold';
+        color: #fff;
+        align-self: flex-start;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+
+    &__champion {
+        margin-top: 30px;
+        height: 430px;
+        position: relative;
+
+        & > img {
+            height: 100%;
+        }
+    }
+
+    &__description {
+        text-align: center;
+        font-family: 'montserrat-regular';
+        color: #fff;
+        font-size: 15px;
+        max-width: 60%;
+
+        @media screen and(max-width: 600px){
+            max-width: 80%;
+        }
+    }
+}
