@@ -5,11 +5,18 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  background-image: url("../img/hero-home.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+body.webp {
+  background-image: url("../img/hero-home.webp");
+}
+
+body.non-webp {
+  background-image: url("../img/hero-home.jpg");
 }
 
 @font-face {
@@ -201,12 +208,13 @@ strong {
   bottom: 40px;
   right: 60px;
   z-index: 999;
-  text-align: center;
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.603);
-  padding: 20px;
   border-radius: 50%;
   opacity: 1;
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/scroll-top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -220,6 +228,7 @@ strong {
 
 .scrollToTop:hover :hover {
   background-color: rgba(255, 255, 255, 0.808);
+  transform: scale(1.05);
 }
 
 .form-group {
@@ -394,6 +403,18 @@ label.error {
 @media screen and (max-width: 640px) {
   .speak-us__content {
     padding: 50px 30px;
+  }
+}
+
+.speak-us__form {
+  width: 70%;
+  max-width: 70%;
+}
+
+@media screen and (max-width: 992px) {
+  .speak-us__form {
+    width: 100%;
+    max-width: 100%;
   }
 }
 

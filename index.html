@@ -39,16 +39,18 @@
         <script src="./vendors/js/vendor.bundle.base.js" defer></script>
         <script src="./js/main.min.js" defer></script>
         <script src="./js/util/scroll-top.min.js" defer></script>
-        <script src="./js/contact-form.js" defer></script>
+        <script src="./js/util/modernzr-webp.js" defer></script>
+        <script src="./js/contact-form.min.js" defer></script>
 
         <!-- Load Styles -->
         <link rel="stylesheet" href="./vendors/css/vendor.bundle.base.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.min.css">
 
     </head>
 
-    <body class="wow fadeIn">
-        <a href="#" class="scrollToTop hide">Top</a>
+    <!-- Body uses img-webp BGI (-60% of total size, really lighter!), and callbacks to jpeg -->
+    <body class="wow fadeIn  img-webp"> 
+        <a href="#" class="scrollToTop hide"><i class="scrollToTop__icon"></i></a>
 
         <!-- Header w/ Brand start -->
         <header class="brand-header d-flex justify-content-center align-items-center">

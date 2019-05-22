@@ -29,6 +29,15 @@
         }
     }
 
+    &__form{
+        width: 70%;
+        max-width: 70%;
+
+        @media screen and(max-width: 992px){
+            width: 100%;
+            max-width: 100%;
+        }
+    }
 
     &__info{
         margin-bottom: 30px;
