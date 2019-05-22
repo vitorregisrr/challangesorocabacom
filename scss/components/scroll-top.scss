@@ -12,6 +12,10 @@
     background-repeat: no-repeat;
     @include transition();
 
+    @media screen and(max-width: 640px){
+        right: 10px;
+    }
+
     &.hide {
         opacity: 0;
     }
