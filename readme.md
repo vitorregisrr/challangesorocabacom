@@ -1,6 +1,8 @@
 # Challange para Front-End Dev na Sorocabacom #
 ## Resultado do site que desenvolvi seguindo as especificações do teste, com cronômetro. ##
 
+Para rodar o projeto na máquina é só dar um "npm i" seguido de "npm run gulp" para iniciar o servidor de testes!
+
 ### Resultado: ###
 [Clique para acessar o site](https://vitorregisrr.github.io/challangesorocabacom/)  
 [Clique para acessar o projeto no BitBucket](https://bitbucket.org/vitorregisr/testesorocabacom/src/master/)
