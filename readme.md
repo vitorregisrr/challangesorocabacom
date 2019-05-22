@@ -2,7 +2,7 @@
 ## Resultado do site que desenvolvi seguindo as especificações do teste, com cronômetro. ##
 
 ### Resultado: ###
-[Clique para acessar o site](https://vitorregisrr.github.io/challangesorocabacom/)
+[Clique para acessar o site](https://vitorregisrr.github.io/challangesorocabacom/)<br/>
 [Clique para acessar o projeto no BitBucket](https://bitbucket.org/vitorregisr/testesorocabacom/src/master/)
 #### Cronômetro:
  ![picture alt](https://vitorregisrr.github.io/challangesorocabacom/img/cronometro.jpg)
