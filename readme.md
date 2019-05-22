@@ -8,7 +8,6 @@
  ![picture alt](https://vitorregisrr.github.io/challangesorocabacom/img/cronometro.jpg)
 
 ### Desafio: ###
-[Clique para em PDF](https://docs.google.com/document/d/1kQ7_jAYN2MR0G6mfr8-veM4RmSmtd8T1qQ78yht5uoE/edit)
 
 #### Resumo: ####
 Brefing
