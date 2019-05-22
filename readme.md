@@ -27,7 +27,7 @@ Não esqueça da validação do formulário!
 Deve ser responsivo e respeitar o acesso de dispositivos móveis. Trabalhe com as larguras 320 a 640 para smartphones e 800 a 1024 para tablets.
 Entrega:
 Para entregar o projeto, você vai ter duas opções:
-Compactar os arquivos, subir no WeTransfer e nos enviar o link para o e-mail: projetos@sorocabacom.com
+Compactar os arquivos, subir no WeTransfer e nos enviar o link para o e-mail: (censurado)
 Criar uma conta no BitBucket (caso não possua), criar um repositório e nos enviar o acesso para clonar.
 
 Caso opte por utilizar o GIT, não esqueça dos commits a cada passo para que possamos analisar também como você utiliza.
