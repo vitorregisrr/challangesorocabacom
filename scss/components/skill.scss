@@ -2,14 +2,16 @@
     position: relative;
     width: 95%;
     height: 450px;
-    background-image: linear-gradient(rgba(46, 13, 62, 0.9), rgba(46, 13, 62, 0.8));
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 31px;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-y: show;
     margin-top: 60px;
-    @media screen and (min-width: 392px) and (max-width: 600px) {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.473);
+    
+    @media screen and (min-width: 392px) and (max-width: 640px) {
         width: 80%;
     }
 
@@ -25,14 +27,14 @@
             width: 100%;
             height: 100%;
             border-radius: inherit;
-            border: 3px solid rgba(46, 13, 62, 0.925);
+            border: 4px solid rgba(46, 13, 62, 0.925);
             z-index: 1;
         }
     }
 
     &__content {
         font-family: 'montserrat-regular';
-        color: #fff;
+        color: rgb(255, 255, 255);
         font-size: 14px;
         padding: 20px 30px 51px;
         text-align: justify;

@@ -129,7 +129,7 @@ gulp.task('copyRecursiveVendorFiles', function () {
 /*Building vendor scripts needed for basic template rendering*/
 gulp.task('buildBaseVendorScripts', function () {
     return gulp
-        .src(['./node_modules/jquery/dist/jquery.min.js', './node_modules/wowjs/dist/wow.min.js', './node_modules/lazyload/lazyload.js', './node_modules/owl.carousel/dist/owl.carousel.min.js'])
+        .src(['./node_modules/jquery/dist/jquery.min.js', './node_modules/wowjs/dist/wow.min.js', './node_modules/lazyload/lazyload.js', './node_modules/owl.carousel/dist/owl.carousel.min.js', './node_modules/jquery-validation/dist/jquery.validate.js'])
         .pipe(concat('vendor.bundle.base.js'))
         .pipe(gulp.dest('./vendors/js'));
 });

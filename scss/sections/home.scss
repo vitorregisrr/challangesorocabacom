@@ -33,7 +33,7 @@
         align-items: center;
         justify-content: space-around;
 
-        @media screen and(max-width: 600px) {
+        @media screen and(max-width: 640px) {
             width: 90%;
         }
     }
@@ -55,7 +55,7 @@
             height: 100%;
         }
 
-        @media screen and(max-width: 600px) {
+        @media screen and(max-width: 640px) {
             height: 430px;
         }
     }
@@ -67,7 +67,7 @@
         font-size: 15px;
         max-width: 60%;
 
-        @media screen and(max-width: 600px){
+        @media screen and(max-width: 640px){
             max-width: 80%;
         }
     }

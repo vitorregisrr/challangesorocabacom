@@ -37,8 +37,9 @@
 
         <!-- Load scripts ASYNC -->
         <script src="./vendors/js/vendor.bundle.base.js" defer></script>
-        <script src="./js/main.js" defer></script>
-        <script src="./js/util/modernzr-webp.js" defer></script>
+        <script src="./js/main.min.js" defer></script>
+        <script src="./js/util/scroll-top.min.js" defer></script>
+        <script src="./js/contact-form.js" defer></script>
 
         <!-- Load Styles -->
         <link rel="stylesheet" href="./vendors/css/vendor.bundle.base.css">
@@ -47,6 +48,7 @@
     </head>
 
     <body class="wow fadeIn">
+        <a href="#" class="scrollToTop hide">Top</a>
 
         <!-- Header w/ Brand start -->
         <header class="brand-header d-flex justify-content-center align-items-center">
@@ -142,6 +144,24 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="item">
+                                <div class="skill">
+                                    <div class="skill__img">
+                                        <img
+                                            src="./img/loading.gif"
+                                            data-src="./img/skills/3.jpg"
+                                            class="lazy wow bounceIn"
+                                            alt="Skill 3">
+                                    </div>
+                                    <div class="skill__content">
+                                        <p class="skill__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Maxime architecto reiciendis dolore eveniet culpa deleniti veniam numquam quia
+                                            eligendi ut.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- // Skills SLIDER end -->
                     </div>
@@ -163,17 +183,38 @@
 
                         <div class="speak-us__form">
                             <form action="" id="speak-us__form">
+                                <div class="alert-success" id="success-box" style="display: none">
+                                    
+                                </div>
                                 <div class="row">
-                                    <div class="col-12 col-md-6"><input class="form-control" type="text" placeholder="Nome"></div>
-                                    <div class="col-12 col-md-6"><input class="form-control" type="text" placeholder="E-mail"></div>
-                                    <div class="col-12">
-                                        <textarea
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group"><input
+                                            id="inputName"
                                             class="form-control"
-                                            name=""
-                                            id=""
-                                            cols="30"
-                                            rows="10"
-                                            placeholder="Mensagem"></textarea>
+                                            type="text"
+                                            placeholder="Nome"
+                                            name="name"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group"><input
+                                            id="inputEmail"
+                                            class="form-control"
+                                            type="email"
+                                            name="email"
+                                            id="inputEmail"
+                                            placeholder="E-mail"></div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea
+                                                id="inputMensagem"
+                                                class="form-control"
+                                                name="mensagem"
+                                                id=""
+                                                cols="30"
+                                                rows="10"
+                                                placeholder="Mensagem"></textarea>
+                                        </div>
                                     </div>
                                 </div>
                                 <button class="btn-main">Enviar</button>

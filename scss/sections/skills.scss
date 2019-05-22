@@ -1,18 +1,50 @@
 .skills {
     width: 100vw;
     height: auto;
-    padding: 120px 0;
+    padding: 140px 0;
     background-color: rgba(0, 0, 0, 0.7);
     overflow: hidden;
 
     &__slider {
 
+        .owl-nav {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           top: 0;
+        }
+
+        .owl-nav button{
+            position: absolute;
+            top: 40%;
+            width: 90px;
+            height: 70px;
+            opacity: 0.8;
+            background-size: contain !important;
+            background-repeat: no-repeat !important;
+            background-image: url('../img/arrow.png') !important;
+            @include transition();
+
+            &:hover{
+                opacity: 1;
+            }
+         }
+
+        .owl-prev {
+            left: -7%;
+        }
+
+        .owl-next {
+            right: -7%;
+            transform: scaleX(-1);
+        }
+
         .item {
             display: flex;
             justify-content: center;
             align-items: center;
-            
-            &.center{
+
+            &.center {
                 transform: scale(1.1);
             }
         }
